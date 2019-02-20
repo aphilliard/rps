@@ -1,0 +1,9 @@
+body {
+    background-color: rgb(93, 202, 102);
+}
+
+img {
+    position: absolute;
+    bottom: 15%;
+    left: 25%;
+}
