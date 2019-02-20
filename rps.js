@@ -7,7 +7,7 @@ function playRound(p, c) {
     if (p === c) {
         console.log("Tie!");
     }
-    else if ((p === "rock" && c === "scissors") || (p === "paper" && c === "rock")) {
+    else if ((p === "rock" && c === "scissors") || (p === "paper" && c === "rock") || (p === "scissors" && c === "paper")) {
         console.log("Player wins!");
 	score++;
     }
